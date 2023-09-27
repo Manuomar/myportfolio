@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            /* background-color: black; */
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: aquamarine;
+            font-size: 1.2rem;
+        }
+        .left {
+            font-size: 1.75rem;
+        }
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            font-size: 2rem;
+            align-items: center;
+        }
+        .sub-title {
+            font-size: 3.5rem;
+            margin-top: 150px;
+            margin-bottom: 50px;
+    
+    margin-left: -20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+.mail{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.num{
+    font-size: 1.5rem;
+    margin-bottom: 10px;  
+}
+.rightsection form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form .btn1{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.rightsection{
+    margin-left: 300px;
+    margin-right: 130px;
+    margin-top: 100px;
+}
+.leftsection{
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.im1{
+    width: 30px;
+    
+}
+.mail{
+    display: flex;
+    margin-right: 10px;
+}
+.im2{
+    width: 30px;
+    margin-left: 1px;
+}
+.num{
+    display: flex;
+    justify-content:left;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 50px;
+   margin-left: -40px;
+}
+.im3{
+    width: 30px;
+}
+.im4{
+    width: 30px;
+}
+.im5{
+    width: 30px;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="left">Manu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me<hr color="aqua"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+            <div class="firstsection">
+                <div class="leftsection">
+                    <h1 class="sub-title">Contact Me</h1>
+                <pre class="mail"><img src="paper.png" class="im1"> manuomar0124@gmail.com</pre><br>
+                <pre class="num"><img src="phone.png" class="im2"> 8303935766</pre>
+                <div class="social">
+                    <a href="https://www.instagram.com/manuomar8/" class="insta"><img src="Instagram-White-circle.png" class="im3"></a>
+                    <a href="https://www.linkedin.com/in/manu-omar-b802591b9" class="ln"><img src="icn_social_linkedin.png" class="im4"></a>
+                    <a href="https://www.facebook.com/manu.omar.94" class="fb"><img src="white-facebook-icon-png-8.png" class="im5"></a>
+                </div>
+                </div>
+            <div class="rightsection">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1">Submit</button>
+                </form>
+            </div>
+    </div>
+
+</body>
+</html>
